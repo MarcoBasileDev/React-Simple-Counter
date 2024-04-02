@@ -3,6 +3,8 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![GitHub License](https://img.shields.io/github/license/MarcoBasileDev/Leetcode-Solutions?style=for-the-badge)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 This project aims to provide a comprehensive overview of state management in React, delving into the inner workings of React behind the scenes. It covers topics such as React's handling and updating of the Document Object Model (DOM), best practices for optimizing React performance, the importance of using keys, and the utilization of memo hooks and useCallback.
 
