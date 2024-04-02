@@ -21,7 +21,7 @@ State management is a crucial aspect of React development, as it dictates how da
 
 ## Getting Started:
 
-- **Clone the repository**: git clone https://github.com/MarcoBasileDev/React-Simple-Counter
+- **Clone the repository**: git clone https://github.com/MarcoBasileDev/React-Simple-Counter.git
 - **Install dependencies**: npm install
 - **Run**: npm run dev
 
