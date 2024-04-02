@@ -35,7 +35,7 @@ const Counter = memo(function Counter({ initialCount }) {
 
   // const [counter, setCounter] = useState(initialCount);
   const [counterChanges, setCounterChanges] = useState([
-    { value: initialCount, id: Math.random() },
+    { value: initialCount, id: Math.random() * 1000 },
   ]);
 
   const currentCounter = counterChanges.reduce(
@@ -46,7 +46,7 @@ const Counter = memo(function Counter({ initialCount }) {
   const handleDecrement = useCallback(function handleDecrement() {
     // setCounter((prevCounter) => prevCounter - 1);
     setCounterChanges((prevCounterChanges) => [
-      { value: -1, id: Math.random() },
+      { value: -1, id: Math.random() * 1000 },
       ...prevCounterChanges,
     ]);
   }, []);
